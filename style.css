@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(247, 245, 132, 0.575);
+}
+
+div {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: darkgreen;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#inputBlank {
+  border-color: darkgreen;
+  height: 30px;
+  margin: 10px;
+  background-color: rgb(231, 245, 206);
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+#additem {
+  border-color: darkgreen;
+  background-color: darkgreen;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#removeitem {
+  border-color: darkgreen;
+  background-color: darkgreen;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#additem:hover {
+  background-color: whitesmoke;
+  color: darkgreen;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  border-radius: 12px;
+}
+
+#removeitem:hover {
+  background-color: whitesmoke;
+  color: darkgreen;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  border-radius: 12px;
+}
+
+th {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  margin: 2px;
+  font-size: 20px;
+  border-color: darkgreen;
+  background-color: darkgreen;
+  color: whitesmoke;
+  border-radius: 50px;
+}
+
+button:hover {
+  margin: 2px;
+  font-size: 20px;
+  border-color: darkgreen;
+  background-color: whitesmoke;
+  color: darkgreen;
+  border-radius: 50px;
+}
